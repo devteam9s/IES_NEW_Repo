@@ -1,0 +1,68 @@
+.sensors{
+    padding: 10px;
+}
+.title1{
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: 'poppins';
+    justify-content: center;
+    margin-bottom: 30px;
+    // background-color: #000066;
+    font-size: 30px;
+    height: 20px;
+    // width: 100;
+    .icon{
+        font-size: 30px;
+    }
+}
+.item1{
+    display: flex;
+    padding: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    height: 50px;
+    width: 700px;
+    margin-bottom: 10px;
+    background-color: #000066;
+    border-radius: 1rem;
+    justify-content: space-between;
+    .span1{
+        font-size: 25px;
+        color: white;
+        font-weight: bold;
+        font-family: 'poppins';
+        cursor: pointer;
+        // padding: 10px;
+        
+    }
+    .icon1{
+        font-size: 25px;
+        padding-top: 10px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        align-self: center;
+    }
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000066;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  }
+  .link1 {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+  }
+  .dropdown-content :hover {background-color: #668cff;}
+.dropdown:hover .dropdown-content {display: block;}

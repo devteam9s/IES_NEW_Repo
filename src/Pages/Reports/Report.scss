@@ -1,0 +1,41 @@
+.report{
+    
+    height: 100%;
+    width: 100%;
+    .title{
+        color: white;
+        font-family: 'Poppins';
+        font-size: 35px;
+        text-align: center;
+        justify-content: center;
+    }
+    .form{
+        text-align: center;
+    }
+}
+label{
+    display: flex;
+    flex-direction: column;
+}
+.fname,.sname,.date{
+    font-family: 'Poppins';
+    color: white;
+    font-size: 25px;
+}
+.select,.input{
+    border-radius: 1rem;
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+}
+.submit{
+    height: 50px;
+    width: 150px;
+    border-radius: 1rem;
+    font-family: 'Poppins';
+    background-color: rgb(57, 200, 57);
+    font-weight: 400;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}

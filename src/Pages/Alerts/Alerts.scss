@@ -1,0 +1,44 @@
+.alerts{
+    padding: 10px;
+}
+.title5{
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: 'poppins';
+    justify-content: center;
+    margin-bottom: 30px;
+    // background-color: #000066;
+    font-size: 30px;
+    height: 20px;
+    // width: 100;
+    .icon{
+        font-size: 30px;
+    }
+}
+.alerts-table{
+    background-color: #000066;
+    border-radius: 1rem;
+    margin-bottom: 30px;
+}
+table {
+    font-family: 'poppins';
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td {
+    color: white;
+    font-size: 18px;
+    // border: 1px solid #dddddd;
+    text-align: justify;
+    padding: 15px;
+  }
+  th{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    // border: 1px solid #dddddd;
+    text-align: justify;
+    padding: 15px;
+  }
